@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ClosureReason__c</fullName>
+    <externalId>false</externalId>
+    <label>ClosureReason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Early Support Plan generated</fullName>
+                <default>false</default>
+                <label>Early Support Plan generated</label>
+            </value>
+            <value>
+                <fullName>Not Enough Information</fullName>
+                <default>false</default>
+                <label>Not Enough Information</label>
+            </value>
+            <value>
+                <fullName>Unable to Contact</fullName>
+                <default>false</default>
+                <label>Unable to Contact</label>
+            </value>
+            <value>
+                <fullName>Unable to Contact Family</fullName>
+                <default>false</default>
+                <label>Unable to Contact Family</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
