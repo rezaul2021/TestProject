@@ -1,0 +1,23 @@
+<template>
+  <!---  <lightning-card>
+        <template if:true={accounts.data}>
+            <lightning-datatable
+                key-field="Id"
+                data={accounts.data}
+                columns={columns}
+            >
+           </lightning-datatable>
+        </template>
+    </lightning-card> -->
+
+    <lightning-card class= "titleheader" title="Service Vendor Account Lists">
+        <div class="slds-p-around_xx-small">
+            <lightning-datatable
+                key-field="Id"
+                data={availableAccounts}
+                columns={columns}
+                >
+        </lightning-datatable>
+        </div>
+    </lightning-card>
+</template>
